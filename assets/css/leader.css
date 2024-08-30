@@ -3,3 +3,102 @@
 .font-sohni {
     font-family: "schmal";
 }
+
+.font-sohni-bold-700 {
+    font-family: SohneSchmalBold;
+}
+
+.font-MaisonNeueMedium {
+    font-family: MaisonNeueMedium;
+}
+
+.font-MaisonNeueLight {
+    font-family: MaisonNeueLight;
+}
+
+.font-MaisonNeueSemibold {
+    font-family: MaisonNeueSemibold;
+}
+
+.font-MaisonNeueMonoNormal {
+    font-family: MaisonNeueMonoNormal;
+}
+
+.font-SohneSchmalExtraBold {
+    font-family: SohneSchmalExtraBold;
+}
+
+
+
+.text-blue-link {
+    color: #00999E;
+
+}
+
+@font-face {
+    font-family: "MaisonNeueBold";
+    src: url("https://www.venveo.com/dist/fonts/MaisonNeueBoldItalic/font.woff") format("woff");
+    src: url("https://www.venveo.com/dist/fonts/MaisonNeueBoldItalic/font.woff2") format("woff2");
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "MaisonNeueMedium";
+    src: url("https://www.venveo.com/dist/fonts/MaisonNeueMedium/font.woff") format("woff");
+    src: url("https://www.venveo.com/dist/fonts/MaisonNeueMedium/font.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "MaisonNeueLight";
+    src: url("https://www.venveo.com/dist/fonts/MaisonNeueLightItalic/font.woff") format("woff");
+    src: url("https://www.venveo.com/dist/fonts/MaisonNeueLightItalic/font.woff2") format("woff2");
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "MaisonNeueSemibold";
+    src: url("https://www.venveo.com/dist/fonts/MaisonNeueDemi/font.woff") format("woff");
+    src: url("https://www.venveo.com/dist/fonts/MaisonNeueDemi/font.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "MaisonNeueMonoNormal";
+    src: url("https://www.venveo.com/dist/fonts/MaisonNeueMonoRegular/font.woff") format("woff");
+    src: url("https://www.venveo.com/dist/fonts/MaisonNeueMonoRegular/font.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SohneSchmalBold";
+    src: url("https://www.venveo.com/dist/fonts/sohne-schmal/soehne-schmal-dreiviertelfett.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SohneSchmalExtraBold";
+    src: url("https://www.venveo.com/dist/fonts/sohne-schmal/sohne-schmal-fett.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
