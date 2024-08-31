@@ -1,3 +1,15 @@
+// ===========navbar===========
+const navToggle = document.getElementById('nav-toggle');
+const navMenu = document.getElementById('nav-menu');
+const hamburgerIcon = document.getElementById('hamburger-icon');
+const closeIcon = document.getElementById('close-icon');
+
+navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('hidden');
+    hamburgerIcon.classList.toggle('hidden');
+    closeIcon.classList.toggle('hidden');
+});
+// =======================slider================
 $('.slider-parent').slick({
 
     infinite: false,
@@ -15,7 +27,7 @@ $('.slider-parent').slick({
             }
         },
         {
-            breakpoint: 1024,
+            breakpoint: 1060,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,

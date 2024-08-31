@@ -30,38 +30,55 @@
 <body>
     <section>
         <!-- Navbar -->
-        <nav class="flex justify-between items-center p-6 bg-white shadow-lg">
-            <div class="text-2xl font-bold">
-                <a href="#" class="flex items-center">
-                    <!-- Logo -->
-                    <img src="./assets/image/SVG/Venveo Logo.svg" alt="Logo" class="h-10 w-auto">
-                </a>
+        <nav class="bg-white border-b border-gray-200 fixed w-full z-30 top-0">
+            <div class=" mx-auto flex items-center justify-between p-4">
+                <div class="flex items-center">
+                    <a href="#" class="text-2xl font-bold text-red-600"><img src="./assets/image/SVG/Venveo Logo.svg" alt=""></a>
+                </div>
+                <div class="lg:block hidden space-x-4">
+                    <div class="flex items-center gap-10">
+                    <a href="#" class="text-gray-700 hover:text-black">How We Help</a>
+                    <a href="#" class="text-gray-700 hover:text-black">Who We Help</a>
+                    <a href="#" class="text-gray-700 hover:text-black">Why VENVO</a>
+                    <a href="#" class="text-gray-700 hover:text-black">Resources</a>
+                    <div>
+                        <a href="#" class="bg-[#d6f43e] gap-x-3 py-7 px-8 rounded-md hover:bg-green-600 flex">Let's Talk
+                            <img src="./assets/image/SVG/arrow straight.svg" alt="arrow"></a>
+                    </div>
+                </div>
+                </div>
+                <div class="lg:hidden flex items-center">
+                    <button id="nav-toggle" class="text-gray-700 focus:outline-none">
+                        <svg id="hamburger-icon" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                        <svg id="close-icon" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="flex gap-12 items-center">
-                <div class="hidden md:flex gap-12">
-                    <a href="#" class="text-gray-800 hover:text-blue-500">How We Help</a>
-                    <a href="#" class="text-gray-800 hover:text-blue-500">Who We Help</a>
-                    <a href="#" class="text-gray-800 hover:text-blue-500">Why Us</a>
-                    <a href="#" class="text-gray-800 hover:text-blue-500">Resources</a>
-                </div>
-                <div>
-                    <a href="#" class="bg-[#d6f43e] gap-x-3 py-7 px-8 rounded-md hover:bg-green-600 flex">Let's Talk
-                        <img src="./assets/image/SVG/arrow straight.svg" alt="arrow"></a>
-                </div>
+
+            <div id="nav-menu" class=" lg:hidden hidden bg-white border-t border-gray-200 text-center">
+                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">How We Help</a>
+                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Who We Help</a>
+                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Why VENVO</a>
+                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Resources</a>
+                        <button class="mx-auto bg-[#d6f43e] gap-x-3 py-7 px-8 rounded-md flex items-center">Let's Talk
+                            <img src="./assets/image/SVG/arrow straight.svg" alt="arrow"></button>
             </div>
         </nav>
-
         <!-- Hero Section -->
-        <section class="flex flex-col md:flex-row">
-            <div class="bg-white p-10 md:w-1/2 flex items-center justify-center">
+        <section class="flex flex-wrap pt-10">
+            <div class="bg-white p-10 lg:w-1/2 w-full flex items-center justify-center">
                 <div>
                     <h2 class=" text-blue-500">WHAT WE DO</h2>
-                    <h1 class="text-8xl font-bold mt-2">Industry-Leading SEO Services</h1>
+                    <h1 class="sm:text-8xl text-5xl sm:text-start text-center font-bold mt-2">Industry-Leading SEO Services</h1>
                     <p class="text-lg mt-4 text-gray-600">Rank for the most lucrative keywords in your industry with
                         end-to-end SEO, from content creation to technical optimization.</p>
                 </div>
             </div>
-            <div class="md:w-1/2">
+            <div class="lg:w-1/2 w-full">
                 <img src="./assets/images/png/man.png" alt="Industry-Leading SEO Services"
                     class="w-full h-full object-cover">
             </div>
